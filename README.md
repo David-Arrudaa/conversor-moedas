@@ -2,9 +2,14 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/status-conclu%C3%ADdo-brightgreen" alt="Status do Projeto: Concluído">
+  <a href="https://david-arrudaa.github.io/conversor-moedas/">
+    <img src="https://img.shields.io/badge/deploy-online-brightgreen" alt="Link para o Deploy">
+  </a>
 </p>
 
-Projeto de um conversor de moedas funcional e com uma interface agradável, desenvolvido como parte de um estudo prático de desenvolvimento front-end.
+## 🚀 Acesso ao Projeto
+
+Você pode acessar a versão ao vivo do projeto aqui: **[Deploy do Conversor de Moedas](https://david-arrudaa.github.io/conversor-moedas/)**
 
 ---
 
@@ -54,9 +59,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ```bash
 # Clone este repositório
-$ git clone [https://github.com/SEU-USUARIO/NOME-DO-SEU-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-SEU-REPOSITORIO.git)
+$ git clone [https://github.com/David-Arrudaa/conversor-moedas.git](https://github.com/David-Arrudaa/conversor-moedas.git)
 
 # Acesse a pasta do projeto no seu computador
-$ cd NOME-DO-SEU-REPOSITORIO
+$ cd conversor-moedas
 
 # Abra o arquivo index.html no seu navegador de preferência
