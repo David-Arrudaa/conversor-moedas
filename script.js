@@ -6,10 +6,9 @@ function convertValues() {
     const inputCurrencyValue = document.querySelector(".input-currency").value
     const currencyValueConverted = document.querySelector(".currency-value")
 
-    const realToday = 1;
-    const dolarToday = 5.2;
-    const euroToday = 6.2;
-    const libraToday = 6;
+    const dolarToday = 5.52;
+    const euroToday = 6.50;
+    const libraToday = 7.50;
     const bitcoinToday = 350000;
 
     if (currencySelect.value == "usd") {
