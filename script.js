@@ -35,7 +35,8 @@ function convertValues() {
     if (currencySelect.value == "btc") {
         currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
-            currency: "BTC"
+            currency: "BTC",
+            minimumFractionDigits: 8
         }).format(inputCurrencyValue / bitcoinToday);
     }
 
