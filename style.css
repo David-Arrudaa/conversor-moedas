@@ -12,7 +12,7 @@ body {
 
 header {
     width: 300px;
-    margin: 20px auto;
+    margin: 20px auto 0;
     padding: 20px;
 }
 
@@ -115,5 +115,55 @@ section {
     color: #555;
     font-weight: 700;
     font-size: 20px;
+
+}
+
+@media screen and (max-width: 600px) {
+
+    header {
+        display: grid;
+        place-items: center;
+        margin-top: 0;
+    }
+
+
+    #fundo {
+        width: 150px;
+    }
+
+    main {
+        max-width: 300px;
+    }
+
+    label {
+        font-size: 12px;
+    }
+
+    select,
+    input,
+    button {
+        height: 28px;
+        font-size: 12px;
+        padding-left: 12px;
+        margin-bottom: 12px;
+    }
+
+    section {
+        margin-top: 12px;
+    }
+
+    .arrow-img {
+        width: 15px;
+    }
+
+    .currency-flag, .currency-flag-to-convert {
+        width: 35px;
+    }
+
+
+    .currency-value,
+    .currency-value-to-convert, #currency-name {
+        font-size: 12px;
+    }
 
 }
